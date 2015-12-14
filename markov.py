@@ -3,11 +3,11 @@ import tweepy
 import random
 from collections import defaultdict
 
-consumer_key = "BVCoUsXsawKsk5XheX1LOkmOZ"
-consumer_secret = "6VRN1kmBM8c5br6ARmsG1VKjBMAhsfO8DmEo3kZo1vkU3NbTOd"
+#consumer_key = 
+#consumer_secret = 
 
-access_token = "178212768-NYRICrlDkYJpZPJoOOMW9WGF74YdveRvK7dKVwwo"
-access_token_secret = "DgGSwG9jyVZIsGGM5Jup9nC7SO8s8RFJEoD5utsDmUid3"
+#access_token = 
+#access_token_secret = GET THESE FROM THE TWITTER API WEBSITE
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
